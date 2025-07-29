@@ -30,7 +30,7 @@ Predict whether a passenger was **transported to another dimension** during a sp
 **Feature selection**
 - 13 input features selected, such as Age, VIP status, services used, and Cabin metadata
 
-### 3. Model training and development**
+### 3. Model training and development
 - Logistic Regression and Random Forest
 - Train/validation split (80 % and 20%)
 - GridSearchCV for hyperparameter tuning
@@ -40,7 +40,7 @@ Predict whether a passenger was **transported to another dimension** during a sp
   - ReLU activations and final sigmoid layer
 - Training with `binary_crossentropy` loss and `adam` optimiser
 
-### 4. Evaluation**
+### 4. Evaluation
 - Achieved accuracy and loss analysis on training/validation sets
 - Generated predictions for the test set
 - Exported submission for Kaggle
