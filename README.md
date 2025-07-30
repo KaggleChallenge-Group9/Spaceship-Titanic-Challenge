@@ -61,6 +61,18 @@ This notebook showcases a comprehensive machine learning pipeline divided into t
 ### 5. 📈 Explainability
 - Model explainability with SHAP (SHapley Additive exPlanations)  
 - Visual insights into feature contributions for top predictions
+  
+### 6. 📊 Model Performance Summary
+
+| Model                | Accuracy | Precision | Recall | F1-score |
+|---------------------|----------|-----------|--------|----------|
+| Logistic Regression |  0.769   |  0.750    | 0.815  | 0.781    |
+| Random Forest       |  0.795   |  0.805    | 0.784  | 0.794    |
+| XGBoost             |  0.800   |  0.794    | 0.814  | 0.804    |
+| **Neural Network**  |  **0.802**   |  0.791    | **0.827**  | **0.808**    |
+
+
+🏆 Best Model: The Neural Network achieved the highest accuracy of 80.2%, along with the strongest F1-score (0.808), making it the most effective model for this classification task in our pipeline.
 
 ### 6. 📤 Submission Generation
 - Final prediction pipeline applied to the test set  
